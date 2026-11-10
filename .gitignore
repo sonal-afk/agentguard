@@ -1,0 +1,16 @@
+# Virtual environment (never commit - it's huge and machine-specific)
+.venv/
+
+# Secrets - API keys must NEVER be committed
+.env
+
+# AgentDojo run logs / results
+runs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / editor cruft
+.DS_Store
+.vscode/
